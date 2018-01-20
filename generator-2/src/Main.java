@@ -1,11 +1,24 @@
 import processing.core.PApplet;
-import jm.util.Play;
 
-public class Main {
+public class Main extends PApplet{
 
     public static void main(String[] args) {
-        // Prints "Hello, World" to the terminal window.
-        System.out.println("Hello, World");
+    		PApplet.main("Main");
     }
 
+    public void settings(){
+
+    }
+
+    public void setup(){
+
+	    	MusicMaker musicObject = new MusicMaker();
+	    	musicObject.playMusic();
+    	
+    }
+
+    public void draw(){
+
+    } 
+    
 }
