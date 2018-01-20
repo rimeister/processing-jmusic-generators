@@ -1,4 +1,4 @@
-import jm.util.Play;
+/*import jm.util.Play;
 import jm.music.data.*;
 import jm.JMC;
 
@@ -9,4 +9,4 @@ public class MusicMaker implements JMC {
 		Play.midi(n);
 	}
 	
-}
+}*/
