@@ -11,13 +11,9 @@ public class Main extends PApplet{
     }
 
     public void setup(){
-	    //	MusicMaker musicObject = new MusicMaker();
-	    	//musicObject.playMusic();
-    		background(255);
+		background(255);
+		MusicMaker musicObject = new MusicMaker();
+	    	musicObject.playMusic();
     }
 
-    public void draw(){
-
-    } 
-    
 }
