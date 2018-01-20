@@ -39,3 +39,16 @@ void setup() {
 //	C4.n.play();
 //	Note myNote = new Note(C4,QUARTER_NOTE);
 }
+
+
+/*****************************************************/
+/*****************************************************/
+/************ NOTE ***********************************/
+/*****************************************************/
+/*****************************************************/
+
+/*
+	I am going to abandon the Processing PDE file approach for now.
+	Instead, I am going to create a Java project, and import processing as a library into it.
+	Going to try this in generator-2.
+*/
